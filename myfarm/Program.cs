@@ -7,6 +7,7 @@ namespace myfarm
         static Dog[] puppy = new Dog[4];
         static void CreateNewFarm()
         {
+            Console.WriteLine("Chris R. is Cool.");
             puppy[0] = new Dog("Beagle", "Snoopy");
             puppy[1] = new Dog("Collie", "Lassie");
             puppy[2] = new Dog("Chihuahua", "Gidget");
